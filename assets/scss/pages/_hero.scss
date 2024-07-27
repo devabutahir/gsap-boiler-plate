@@ -1,0 +1,31 @@
+// data-background="../../assets/images/template/bg-2-1.png"
+
+//Hero Style
+.shop-icon{
+    @include box(62);
+    transition: all 0.4s;
+    &:hover{
+        background: var(--p1);
+    }
+    .cart-count{
+        @include box(30);
+        position: absolute;
+        right: -8px;
+        top: -8px;
+    }
+    @include maxQuery(1399){
+        @include box(44);
+        .cart-count{
+            @include box(22);
+            position: absolute;
+            right: -8px;
+            top: -8px;
+            font-size: 12px;
+        } 
+        img{
+            width: 22px;
+            object-fit: contain;
+        }
+    }
+}
+//Hero Style

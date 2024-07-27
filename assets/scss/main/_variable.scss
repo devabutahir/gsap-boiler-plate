@@ -1,0 +1,52 @@
+// default font family
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&display=swap');
+
+//default root
+:root {
+	/* Font Family */
+	--body-font: "Outfit", sans-serif;
+	--sub-font:  "Oswald", sans-serif;
+	/* Transition */
+	--transition: all 0.5s ease-in-out;
+
+	/* Color styles */
+	--n0: #fff;
+	--n00: #000;
+	--p1: #f06c45;
+	--p100: #d3e7dd;
+	--p200: #e9f5da;
+	--p300: #f06c45;
+	--n900: #000000;
+	--nw1: #D1C8C5;
+	--bg1: #F4F1EA;
+	--bg2: #f4d771;
+	--bg3: #fffadc;
+	--bg4: #dfa8a0;
+	--bg5: #fdf0eb;
+	--bg6: #faf1ee;
+	--bg7: #f06c45;
+	--bg8: #d1c8c5;
+	--bg9: #f4f1ea;
+	--bg10: #fffadc;
+	--bg11: #232125;
+	--bg12: #414141;
+	--bg13: #595959;
+	--bg14: #000000;
+	--ratting: #FEBD15;
+	--section-bg: #FAF1EE;
+	--danger: #F00;
+	--pp-clr: #414141;
+	--cmn-border: rgba(0, 0, 0, 0.20);
+}
+
+
+.body-font{
+	font-family: var(--body-font);
+}
+.sub-font{
+	font-family: var(--sub-font);
+}
+
+.cmn-borders{
+	border: 1px solid var(--nw1);
+}
